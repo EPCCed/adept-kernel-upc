@@ -17,11 +17,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-#Adept Kernel Benchmarks - UPC
+# Adept Kernel Benchmarks - UPC
 
 This README describes the UPC parallel kernel benchmarks.
 
 *PLEASE NOTE* that currently all UPC benchmarks are implemented to use dynamic compilation only (i.e. the number of THREADS that will be used at runtime is unknown at compile time). This can result in poor performance because the data layout follows the default cyclic distribution. In future releases of these benchmarks, we hope to add options for static compilation as well. (16/09/2015) 
+
+## Citation & Further Information
+If you would like to cite this work, please cite:
+Nick Johnson et al., "Adept Deliverable D2.3 - Updated Report on Adept Benchmarks", September 2015.
+available at http://www.adept-project.eu/images/Deliverables/Adept%20D2.3.pdf
+
 
 ## BLAS-type benchmarks
 
